@@ -1,0 +1,33 @@
+﻿node.exe : file:///C:/Users/SHALINI/D
+ownloads/karikalam-ticket-hub/node_mo
+dules/.pnpm/rolldown@1.1.5/node_modul
+es/rolldown/dist/shared/rolldown-buil
+d-CtPvmZgJ.mjs:9
+At C:\Users\SHALINI\AppData\Roaming\n
+pm\pnpm.ps1:24 char:5
++     & "node$exe"  "$basedir/node_mo
+dules/pnpm/bin/pnpm.cjs" $args
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpe 
+   cified: (file:///C:/User...-CtPv  
+  mZgJ.mjs:9:String) [], RemoteExc   
+ eption
+    + FullyQualifiedErrorId : Native 
+   CommandError
+ 
+import { formatWithOptions, 
+styleText } from "node:util";
+                            ^^^^^^^^^
+SyntaxError: The requested module 
+'node:util' does not provide an 
+export named 'styleText'
+    at ModuleJob._instantiate (node:i
+nternal/modules/esm/module_job:123:21
+)
+    at async ModuleJob.run (node:inte
+rnal/modules/esm/module_job:191:5)
+    at async ModuleLoader.import (nod
+e:internal/modules/esm/loader:337:24)
+
+Node.js v18.20.8

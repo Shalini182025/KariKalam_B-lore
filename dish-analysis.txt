@@ -1,0 +1,16 @@
+// In the restaurant photoshoot, what are the dishes?
+// Let's examine:
+// The menu has:
+// 1. Mutton Specials (Mutton Sukka, Mutton Fry, Mutton Kola Urundai, Mutton Biryani)
+// 2. Chicken Specials (Chicken 65, Chicken Chettinad, Karuveppilai Chicken)
+// 3. Fish Specials (Vanjaram Fish Fry, Nethili Fish Kulambu, Crab Roast)
+// 4. Main Course (Parotta, White Rice, Rasam, Meals)
+// 5. Drinks & Dessert (Tender Coconut Drink, Jigarthanda / Beda, Bread Halwa, Payasam)
+// 6. Special & Serving (Banana Leaf Feast spread)
+
+// Let's list the dishes in public/dishes:
+// From the screenshot:
+// - The dish with "Vanjaram" chalkboard is dish_21 (or another) -> This is definitely Vanjaram Fish Fry!
+// - The dish with "Kari" chalkboard -> "Kari" is Mutton!
+// - The crab dish in black bowl -> Crab Roast / Nandu!
+// - The full meals spread on banana leaf -> dish_08 (or full-meals.jpg)!

@@ -1,0 +1,94 @@
+﻿
+> fusion-starter@ dev C:\Users\SHALINI\Downloads\karikalam-ticket-hub
+> vite
+
+Re-optimizing dependencies because lockfile has changed
+Connected to MongoDB Compass Database
+
+  [32m[1mVITE[22m v5.4.21[39m  [2mready in [0m[1m1585[22m[2m[0m ms[22m
+
+  [32mΓ₧£[39m  [1mLocal[22m:   [36mhttp://localhost:[1m8080[22m/[39m
+  [32mΓ₧£[39m  [1mNetwork[22m: [36mhttp://169.254.83.107:[1m8080[22m/[39m
+  [32mΓ₧£[39m  [1mNetwork[22m: [36mhttp://192.168.56.1:[1m8080[22m/[39m
+  [32mΓ₧£[39m  [1mNetwork[22m: [36mhttp://192.168.1.29:[1m8080[22m/[39m
+[2m[32m  Γ₧£[39m[22m[2m  press [22m[1mh + enter[22m[2m to show help[22m
+node.exe : 
+node:internal/process/promises:288
+At C:\Users\SHALINI\AppData\Roaming\n
+pm\pnpm.ps1:24 char:5
++     & "node$exe"  "$basedir/node_mo
+dules/pnpm/bin/pnpm.cjs" $args
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpe 
+   cified: (node:internal/process/p  
+  romises:288:String) [], RemoteEx   
+ ception
+    + FullyQualifiedErrorId : Native 
+   CommandError
+ 
+            
+triggerUncaughtException(err, true 
+/* fromPromise */);
+            ^
+
+[Failed to load PostCSS config: 
+Failed to load PostCSS config 
+(searchPath: C:/Users/SHALINI/Downloa
+ds/karikalam-ticket-hub): [Error] 
+Loading PostCSS Plugin failed: 
+Cannot find native binding. npm has 
+a bug related to optional 
+dependencies (https://github.com/npm/
+cli/issues/4828). Please try `npm i` 
+again after removing both 
+package-lock.json and node_modules 
+directory.
+
+(@C:\Users\SHALINI\Downloads\karikala
+m-ticket-hub\postcss.config.js)
+Error: Loading PostCSS Plugin 
+failed: Cannot find native binding. 
+npm has a bug related to optional 
+dependencies (https://github.com/npm/
+cli/issues/4828). Please try `npm i` 
+again after removing both 
+package-lock.json and node_modules 
+directory.
+
+(@C:\Users\SHALINI\Downloads\karikala
+m-ticket-hub\postcss.config.js)
+    at load (file:///C:/Users/SHALINI
+/Downloads/karikalam-ticket-hub/node_
+modules/.pnpm/vite@5.4.21_@types+node
+@26.1.1_lightningcss@1.33.0/node_modu
+les/vite/dist/node/chunks/dep-BK3b2jB
+a.js:33632:11)
+    at file:///C:/Users/SHALINI/Downl
+oads/karikalam-ticket-hub/node_module
+s/.pnpm/vite@5.4.21_@types+node@26.1.
+1_lightningcss@1.33.0/node_modules/vi
+te/dist/node/chunks/dep-BK3b2jBa.js:3
+3657:16
+    at Array.map (<anonymous>)
+    at plugins (file:///C:/Users/SHAL
+INI/Downloads/karikalam-ticket-hub/no
+de_modules/.pnpm/vite@5.4.21_@types+n
+ode@26.1.1_lightningcss@1.33.0/node_m
+odules/vite/dist/node/chunks/dep-BK3b
+2jBa.js:33656:8)
+    at processResult (file:///C:/User
+s/SHALINI/Downloads/karikalam-ticket-
+hub/node_modules/.pnpm/vite@5.4.21_@t
+ypes+node@26.1.1_lightningcss@1.33.0/
+node_modules/vite/dist/node/chunks/de
+p-BK3b2jBa.js:33726:14)
+    at file:///C:/Users/SHALINI/Downl
+oads/karikalam-ticket-hub/node_module
+s/.pnpm/vite@5.4.21_@types+node@26.1.
+1_lightningcss@1.33.0/node_modules/vi
+te/dist/node/chunks/dep-BK3b2jBa.js:3
+3856:14]
+
+Node.js v18.20.8
+ΓÇëELIFECYCLEΓÇë Command failed with exit code 1.
